@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "codewhisper"
 version = "0.1.0"
-description = "Extracting silent \"whispers\" or notes left behind in the code"
+description = "CodeWhisper delves into the depths of web content to extract the silent \"whispers\" or notes developers often leave behind. Using the raw power of feroxbuster, this tool scours HTML and JS files for developer comments that may provide invaluable insights."
 authors = ["Gowthamaraj Rajendran <gowthamaraj360@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = "^3.8"
 requests = "^2.31.0"
 
 
